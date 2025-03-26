@@ -13,48 +13,32 @@
 
 ---
 
-## 🎯 Introduction
-A brief overview of your project and its purpose. Mention which problem statement are your attempting to solve. Keep it concise and engaging.
+## Attaching the document which gives a brief overview of Problem Statement, How We Built It, Challenges We Faced along with the screenshots of the results
+http://github.com/ewfx/gaied-tech-byte-coders/blob/main/artifacts/arch/TechByteCoders_Gen%20AI%20Orchestrator%20for%20Email%20and%20Document%20Triage_Routing.pdf
 
 ## 🎥 Demo
 🔗 [Live Demo](#) (if applicable)  
 📹 [Video Demo](#) (if applicable)  
-🖼️ Screenshots:
-
-![Screenshot 1](link-to-image)
-
-## 💡 Inspiration
-What inspired you to create this project? Describe the problem you're solving.
-
-## ⚙️ What It Does
-Explain the key features and functionalities of your project.
-
-## 🛠️ How We Built It
-Briefly outline the technologies, frameworks, and tools used in development.
-
-## 🚧 Challenges We Faced
-Describe the major technical or non-technical challenges your team encountered.
 
 ## 🏃 How to Run
 1. Clone the repository  
    ```sh
-   git clone https://github.com/your-repo.git
+   git clone https://github.com/ewfx/gaied-tech-byte-coders
    ```
 2. Install dependencies  
    ```sh
-   npm install  # or pip install -r requirements.txt (for Python)
+   pip install -r requirements.txt
    ```
-3. Run the project  
+3. Run the project   
    ```sh
-   npm start  # or python app.py
+   python -m uvicorn sourcecode.src.main:app --reload
    ```
 
 ## 🏗️ Tech Stack
-- 🔹 Frontend: React / Vue / Angular
-- 🔹 Backend: Node.js / FastAPI / Django
-- 🔹 Database: PostgreSQL / Firebase
-- 🔹 Other: OpenAI API / Twilio / Stripe
+- 🔹 Backend: Python / FastAPI 
+- 🔹 Other: Ollama/ Gemma:2b
 
 ## 👥 Team
-- **Your Name** - [GitHub](#) | [LinkedIn](#)
-- **Teammate 2** - [GitHub](#) | [LinkedIn](#)
+- **Vidyashree R** 
+- **Geetha Sravya Gonela** 
+- **Sivakumar Vaddi** 

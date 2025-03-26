@@ -1,0 +1,8 @@
+ollama
+fastapi
+uvicorn
+logging
+python-docx 
+chardet 
+beautifulsoup4 
+extract_msg

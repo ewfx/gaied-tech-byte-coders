@@ -1,0 +1,103 @@
+{
+  "rules": [
+    {
+      "requestType": "Adjustment",
+      "subRequestTypes": [
+        {
+          "subRequestType": "Correction",
+          "keywords": ["correction", "adjustment", "rectify", "modify", "revise"]
+        },
+        {
+          "subRequestType": "Interest Adjustment",
+          "keywords": ["interest correction", "interest adjustment", "recalculate interest"]
+        }
+      ]
+    },
+    {
+      "requestType": "AU Transfer",
+      "subRequestTypes": [
+        {
+          "subRequestType": "Internal Transfer",
+          "keywords": ["account unit transfer", "AU movement", "internal AU transfer"]
+        },
+        {
+          "subRequestType": "External Transfer",
+          "keywords": ["transfer to another account", "external AU movement", "AU reallocation"]
+        }
+      ]
+    },
+    {
+      "requestType": "Closing Notice",
+      "subRequestTypes": [
+        {
+          "subRequestType": "Reallocation Fees",
+          "keywords": ["reallocation fee", "reallocation charges", "adjustment fee"]
+        },
+        {
+          "subRequestType": "Loan Closure",
+          "keywords": ["loan closure", "final settlement", "full repayment"]
+        }
+      ]
+    },
+    {
+      "requestType": "Commitment Change",
+      "subRequestTypes": [
+        {
+          "subRequestType": "Increase",
+          "keywords": ["increase commitment", "raise limit", "extend credit"]
+        },
+        {
+          "subRequestType": "Decrease",
+          "keywords": ["decrease commitment", "lower limit", "reduce credit"]
+        }
+      ]
+    },
+    {
+      "requestType": "Fee Payment",
+      "subRequestTypes": [
+        {
+          "subRequestType": "Ongoing Fee",
+          "keywords": ["monthly fee", "annual fee", "maintenance charge"]
+        },
+        {
+          "subRequestType": "Penalty Fee",
+          "keywords": ["late payment fee", "penalty charge", "overdue fee"]
+        }
+      ]
+    },
+    {
+      "requestType": "Money Movement In-Bound",
+      "subRequestTypes": [
+        {
+          "subRequestType": "Deposit",
+          "keywords": ["fund deposit", "incoming wire", "money credited"]
+        },
+        {
+          "subRequestType": "Reimbursement",
+          "keywords": ["refund received", "payment reversal", "reimbursed amount"]
+        },
+        {
+          "subRequestType": "General Inquiry",
+          "keywords": ["money movement inbound", "inbound money transfer", "incoming funds", "deposit", "bank deposit"]
+        }
+      ]
+    },
+    {
+      "requestType": "Money Movement Out-Bound",
+      "subRequestTypes": [
+        {
+          "subRequestType": "Withdrawal",
+          "keywords": ["cash withdrawal", "money transfer out", "debit transaction"]
+        },
+        {
+          "subRequestType": "Payment",
+          "keywords": ["bill payment", "loan installment", "outgoing transaction"]
+        },
+        {
+          "subRequestType": "Transfer",
+          "keywords": ["money movement outbound", "transfer to other account", "outgoing funds"]
+        }
+      ]
+    }
+  ]
+}
